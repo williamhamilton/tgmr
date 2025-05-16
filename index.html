@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <title>The Global Matcha Review</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="https://unpkg.com/htmx.org@1.9.2"></script>
+    <style>
+        body {
+            background-color: #f4f7f5;
+            font-family: 'Segoe UI', sans-serif;
+        }
+
+        .hero {
+            background: url('/assets/hero.jpeg') center/cover no-repeat;
+            color: white;
+            height: 60vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .hero h1 {
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 1rem 2rem;
+            border-radius: 1rem;
+        }
+
+        .card-img-top {
+            height: 200px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+    <!-- Hero -->
+    <header class="hero text-center">
+        <h1>The Global Matcha Review</h1>
+    </header>
+
+    <!-- About -->
+    <section class="container py-5">
+        <div class="row">
+            <div class="col-md-6">
+                <h2>About the Kiwi</h2>
+                <p>Aroha is a passionate New Zealander on a global journey to sip, savor, and review matcha lattes from every corner of the world. Follow her as she shares her love of green tea, café vibes, and cultural adventures.</p>
+            </div>
+            <div class="col-md-6">
+                <img src="assets/kiwi.jpeg" class="img-fluid rounded" alt="Kiwi Traveler" />
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews -->
+    <section class="bg-light py-5">
+        <div class="container text-center">
+            <h2>Matcha Reviews</h2>
+            <p>Explore reviews from around the globe 🌍</p>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card shadow">
+                        <img src="assets/matcha-japan.jpeg" class="card-img-top" alt="Tokyo Matcha" />
+                        <div class="card-body">
+                            <h5 class="card-title">Tokyo, Japan</h5>
+                            <p class="card-text">Smooth, grassy, ceremonial-grade matcha with foamy top at a cozy café in Harajuku. ⭐⭐⭐⭐⭐</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card shadow">
+                        <img src="assets/matcha-francejpeg.jpeg" class="card-img-top" alt="Paris Matcha" />
+                        <div class="card-body">
+                            <h5 class="card-title">Paris, France</h5>
+                            <p class="card-text">Elegant and creamy matcha with floral notes near the Eiffel Tower. ⭐⭐⭐⭐☆</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card shadow">
+                        <img src="assets/matcha-auckland.jpeg" class="card-img-top" alt="Auckland Matcha" />
+                        <div class="card-body">
+                            <h5 class="card-title">Auckland, NZ</h5>
+                            <p class="card-text">Balanced and vibrant matcha at a beachside café in Mission Bay. ⭐⭐⭐⭐⭐</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery -->
+    <section class="container py-5">
+        <h2 class="text-center mb-4">Matcha Moments 📸</h2>
+        <div class="row g-3">
+            <div class="col-md-4"><img src="https://www.theamatcha.com/cdn/shop/articles/Candyshop.webp?v=1739180011&width=400" class="img-fluid rounded shadow-sm" /></div>
+            <div class="col-md-4"><img src="https://www.justonecookbook.com/wp-content/uploads/2021/08/Green-Tea-Ice-Cream-0120-II.jpg" width="400" class="img-fluid rounded shadow-sm" /></div>
+            <div class="col-md-4"><img src="https://i.imgur.com/KAGPxxs.jpeg" width="400" class="img-fluid rounded shadow-sm"/></div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-light py-4 text-center">
+        <p>&copy; 2025 The Global Matcha Review | Follow on <a href="#" class="text-light text-decoration-underline">Instagram</a></p>
+    </footer>
+</body>
+</html>
